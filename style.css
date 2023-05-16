@@ -3,3 +3,8 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+.header{background: #FFDBAA;
+        font: #553100}
+.main{background: #D4A76A}
+.button{background: #805215}
