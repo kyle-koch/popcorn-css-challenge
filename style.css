@@ -5,6 +5,19 @@ Header Text - #553100
 Main background - #D4A76A*/
 
 .header{background: #FFDBAA;
-        font: #553100}
+        color: #553100;
+        margin-top: 0} /*WHY DOES THIS CENTER MY SUB HEADERS*/
 .main{background: #D4A76A}
-.button{background: #805215}
+.buttonTop{background: #805215;
+        color: white;
+        float: right}
+.buttonBot{background: #805215;
+        color: white}
+.section{box-shadow: 0 0 3px 3px #5A5A5A;
+        background: white;
+        display: flex;
+        align-items: center;}
+.wrapper{display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px}
+.center{text-align: center;}
