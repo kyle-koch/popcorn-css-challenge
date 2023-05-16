@@ -7,17 +7,32 @@ Main background - #D4A76A*/
 .header{background: #FFDBAA;
         color: #553100;
         margin-top: 0} /*WHY DOES THIS CENTER MY SUB HEADERS*/
-.main{background: #D4A76A}
+.main{background: #D4A76A;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 .buttonTop{background: #805215;
         color: white;
-        float: right}
+        float: right;
+        font-size: 70%;}
 .buttonBot{background: #805215;
-        color: white}
-.section{box-shadow: 0 0 3px 3px #5A5A5A;
+        color: white;
+        width: 100%;
+        font-size: 150%;
+        padding-top: 5%;
+        padding-bottom: 5%;}
+.section{box-shadow: 0 0 4px 4px #5A5A5A;
         background: white;
-        display: flex;
-        align-items: center;}
+        margin-left: center;
+        margin-right: center;}
 .wrapper{display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px}
+        gap: 5%}
 .center{text-align: center;}
+.centerBlock{display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 5%;
+            padding-right: 5%;}
+.centerButton{display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5%;}
